@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Heebo:wght@681&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Caveat+Brush&family=Heebo:wght@681&family=Oxygen&display=swap');
 
 
 *{
@@ -8,27 +10,157 @@
 
 .bg img{
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     object-fit: cover;
+    position: relative;
 }
 
 
 /* workign on card */
 
 .txt{
-    background-color: yellow;
-    width: 60%;
+    width: 100%;
+
+    position: absolute;
+    top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.outerp1{
+    background: #ED4264;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 50%;
+    height: 600px;
+    border-radius: 10px;
 }
 .p1{
-    background-color: red;
-    width: 30%;
+   
+    display: flex;
+    flex-direction: column;
 }
 
 .p2{
     background-color: aqua;
-    width: 30%;
-}
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 544px;
+    background: #603813;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}   
 
 .card{
     display: flex;
+    position: absolute;
+    top: 200px;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    height: 500px;
 }
+
+.outerCard{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* start work on p1 */
+
+.p1_t1{
+    height: 153px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3.5rem;
+    padding: 0px 78px;
+
+}
+.p1_t2{
+    height: 56px;
+    padding: 0px 78px;
+
+}
+.p1_t3 a{
+    text-decoration: none;
+    color: white;
+
+}
+.p1 form{
+    height: 173px;
+    width: 100%;
+}
+
+input[type=text], select {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        /* display: inline-block; */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+  .ft1 a{
+      height: 200px;
+      text-decoration: none;
+      color: white;
+      /* padding: 30px 70px; */
+  }
+  .ft1{
+      border: 2px solid white;
+        padding: 23px 56px;
+        margin: 0px 80px;
+        border-radius: 25px;
+  }
+
+  /* start work on p2  */
+
+ .p2_t1{
+    font-family: 'Caudex', serif;
+    height: 160px;
+    font-size: 3.5rem;
+    padding: 12px 78px;
+ }
+ .p2_t2{
+    padding: 0px 78px;
+    height: 200px;
+ }
+ .l2{
+     height: 130px;
+     padding: 12px 78px;
+     border: 2px solid black;
+     margin: 0px 78px;
+     border-radius: 21px;
+ }
+ .l2 a{
+    text-decoration: none;
+    color: white;
+ }  
+
+
+ /* moving letter css */
+ .ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4em;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
