@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Heebo:wght@681&family=Oxygen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Caveat+Brush&family=Heebo:wght@681&family=Oxygen&display=swap');
+@import url('http://fonts.cdnfonts.com/css/charming-anneta');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Caveat+Brush&family=Heebo:wght@681&family=Montserrat:ital,wght@1,200&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Caveat+Brush&family=Heebo:wght@681&family=Montserrat:ital,wght@1,200&family=Oxygen&family=Share:ital,wght@1,700&display=swap');
 
 
 *{
@@ -20,9 +23,9 @@
 
 .txt{
     width: 100%;
-
+    font-family: 'Charming Anneta', sans-serif;
     position: absolute;
-    top: 20px;
+    top: 100px;
     font-size: 2.5rem;
     text-align: center;
 }
@@ -30,7 +33,7 @@
     background: #ED4264;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+box-shadow: 5px 10px 18px red;
     width: 50%;
     height: 600px;
     border-radius: 10px;
@@ -39,21 +42,29 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
    
     display: flex;
     flex-direction: column;
+    
 }
 
 .p2{
-    background-color: aqua;
-    width: 50%;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    height: 544px;
-    background: #603813;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 5px 10px 18px red;
+    
+    background: #108dc7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }   
+.outerp2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+}
 
 .card{
     display: flex;
@@ -63,26 +74,30 @@ background: linear-gradient(to left, #b29f94, #603813); /* W3C, IE 10+/ Edge, Fi
     text-align: center;
     width: 60%;
     height: 500px;
-}
-
-.outerCard{
-    display: flex;
     justify-content: center;
 }
 
 
+#outerCard{
+    display: flex;
+    justify-content: center;
+}
+
 /* start work on p1 */
 
 .p1_t1{
-    height: 153px;
-    font-family: 'Caveat Brush', cursive;
+    /* height: 153px; */
+    margin-bottom: 23px;
+    font-family: 'Heebo', sans-serif;
     font-size: 3.5rem;
     padding: 0px 78px;
 
 }
 .p1_t2{
-    height: 56px;
+    margin-bottom: 23px;
     padding: 0px 78px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
 
 }
 .p1_t3 a{
@@ -91,7 +106,8 @@ background: linear-gradient(to left, #b29f94, #603813); /* W3C, IE 10+/ Edge, Fi
 
 }
 .p1 form{
-    height: 173px;
+    margin-bottom: 23px;
+    /* height: 173px; */
     width: 100%;
 }
 
@@ -106,7 +122,7 @@ input[type=text], select {
     }
 
   .ft1 a{
-      height: 200px;
+    
       text-decoration: none;
       color: white;
       /* padding: 30px 70px; */
@@ -122,45 +138,28 @@ input[type=text], select {
 
  .p2_t1{
     font-family: 'Caudex', serif;
-    height: 160px;
+    /* height: 145px; */
+    margin-bottom: 90px;
     font-size: 3.5rem;
     padding: 12px 78px;
  }
  .p2_t2{
     padding: 0px 78px;
-    height: 200px;
+    margin-bottom: 90px;
+    font-family: 'Heebo', sans-serif;
  }
- .l2{
-     height: 130px;
-     padding: 12px 78px;
-     border: 2px solid black;
-     margin: 0px 78px;
-     border-radius: 21px;
- }
+
  .l2 a{
     text-decoration: none;
     color: white;
  }  
+ .l2{
+    padding: 23px 5px;
+    border: 2px solid black;
+    margin: 0px 78px;
+    border-radius: 21px;
+}
 
 
- /* moving letter css */
- .ml10 {
-    position: relative;
-    font-weight: 900;
-    font-size: 4em;
-  }
-  
-  .ml10 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  
-  .ml10 .letter {
-    display: inline-block;
-    line-height: 1em;
-    transform-origin: 0 0;
-  }
+
+ 
