@@ -29,7 +29,7 @@
     top: 100px;
     font-size: 4rem;
     text-align: center;
-    color: rgb(255, 60, 60);
+    color: rgb(5 128 255);
     background: -webkit-linear-gradient(#eee, rgb(217, 235, 59));
     margin-left: 20%;
     border-radius: 20px;
@@ -40,7 +40,7 @@
     background: #ED4264;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-box-shadow: 5px 10px 18px red;
+box-shadow: 5px 10px 18px yellow;
     width: 50%;
     height: 600px;
     border-radius: 10px;
@@ -56,10 +56,10 @@ box-shadow: 5px 10px 18px red;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    box-shadow: 5px 10px 18px red;
-    background: #fc4a1a;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 5px 10px 18px yellow;
+    background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b083d4, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }   
 .outerp2{
@@ -279,6 +279,7 @@ input[type=text], select {
 .light{
     position: absolute;
     top: 0px;
+    width: 50%;
 }
 .light1{
     width: 100%;
@@ -293,7 +294,7 @@ input[type=text], select {
      position: relative;
     animation-name: light1;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 5;
     transition-timing-function: ease;
  }
  .light1 img{
@@ -344,7 +345,7 @@ input[type=text], select {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     transition-timing-function: ease;
-    /* animation-fill-mode: alternate; */
+    animation-fill-mode: alternate;
  }
 
  @keyframes hb {
@@ -359,4 +360,5 @@ input[type=text], select {
  } 
 
 
- 
+ /* birthday cake animation */
+
