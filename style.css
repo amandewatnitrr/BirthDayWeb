@@ -29,6 +29,8 @@
     font-size: 2.5rem;
     text-align: center;
 }
+
+
 .outerp1{
     background: #ED4264;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
@@ -49,10 +51,9 @@ box-shadow: 5px 10px 18px red;
     display: flex;
     flex-direction: column;
     box-shadow: 5px 10px 18px red;
-    
-    background: #108dc7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }   
 .outerp2{
@@ -160,6 +161,105 @@ input[type=text], select {
     border-radius: 21px;
 }
 
+.ballonImg{
+    position: absolute;
+    bottom: 0px;
+}
+.ballonImg1{
+    position: absolute;
+    bottom: 0px;
+    left: 15%;
+}
+.ballonImg2{
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+}
+.ballonImg3{
+    position: absolute;
+    bottom: 0px;
+    right: -5%;
+}
+.ballonImg4{
+    position: absolute;
+    bottom: 0px;
+    right: -15%;
+}
+.ballonImg5{
+    position: absolute;
+    bottom: 0px;
+    right: -20%;
+}
 
 
- 
+ .ballonImg img{
+    width: 30%;
+    position: relative;
+    animation-name: ballon1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+ }
+ .ballonImg1 img{
+    width: 30%;
+    position: relative;
+    animation-name: ballon2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+ }
+ .ballonImg2 img{
+    width: 30%;
+    position: relative;
+    animation-name: ballon2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+ }
+ .ballonImg3 img{
+    width: 30%;
+    position: relative;
+    animation-name: ballon2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+ }
+ .ballonImg4 img{
+    width: 30%;
+    position: relative;
+    animation-name: ballon2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+ }
+ .ballonImg5 img{
+    width: 30%;
+    position: relative;
+    animation-name: ballon2;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+ }
+
+ @keyframes ballon1 {
+
+    from{
+        transform: translateY(-250%);
+    }
+    to{
+        transform: translateY(100%);
+        display: none;
+    }
+     
+ }
+ @keyframes ballon2 {
+
+    from{
+        transform: translateY(-250%);
+    }
+    to{
+        transform: translateY(100%);
+        display: none;
+    }
+     
+ }
