@@ -313,4 +313,27 @@ li a:hover:not(.active) {
           margin: 18px 0px;
       }
 
+@media screen and (max-width: 1100px){
+  .white{
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+}
+      
+@media screen and (max-width: 600px){
+  .white{
+    padding: 0px 10px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 500px){
+  .white{
+    display: flex;
+    flex-direction: column;
+  }
+  .container1{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
       
