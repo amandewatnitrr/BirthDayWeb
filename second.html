@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +12,12 @@
 <link rel="stylesheet" href="second.css">
 
 <body>
+
+  <ul>
+    <li><a href="#home">Find who wished you?</a></li>
+    <li class="surprise"><a href="#news">Surprise</a></li>
+  </ul>
+
     <div class="container">
         <h1 class="title">Happpy Birthday!</h1>
         <div class="cake">
@@ -19,6 +27,15 @@
         </div>
     </div>
     <br><br><br>
+
+    
+    <!-- arrow animation scroll  -->
+    <div class="arrow">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <br><br><br><br><br><br>
     <!-- now the time of cards -->
     <div class="txt1">You're Amazing! Have a great year ahead.</div><br>
     <div class="txt2">We have recieved so many greetings and wishes, but we could not keep track of who sent which
@@ -26,55 +43,56 @@
     
     <div class="white">
 
-        <div class="container1">
+        <div data-aos="fade-up-right" class="container1">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay">
               <div class="text">Hello World</div>
             </div>
         </div>
-        <div class="container1 zero">
+        <div data-aos="fade-up" class="container1 zero">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay zero">
               <div class="text zero">Hello World</div>
             </div>
         </div>
-        <div class="container1 one">
+        <div data-aos="fade-left" class="container1 one">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay one">
               <div class="text one">Hello World</div>
             </div>
         </div>
-        <div class="container1 two">
+        <div data-aos="zoom-in-right" class="container1 two">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay two">
               <div class="text two">Hello World</div>
             </div>
         </div>
-        <div class="container1 three">
+        <div data-aos="flip-left" class="container1 three">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay three">
               <div class="text three">Hello World</div>
             </div>
         </div>
-        <div class="container1 four">
+        <div data-aos="fade-right" class="container1 four">
+            <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
+            <div class="overlay four">
+              <div class="text four">Hello World</div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up-right" class="container1 five">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay four">
               <div class="text four">Hello World</div>
             </div>
         </div>
-        <div class="container1 five">
+        <div data-aos="flip-left" class="container1 six">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay four">
               <div class="text four">Hello World</div>
             </div>
         </div>
-        <div class="container1 six">
-            <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
-            <div class="overlay four">
-              <div class="text four">Hello World</div>
-            </div>
-        </div>
-        <div class="container1 seven">
+        <div data-aos="fade-up-left" class="container1 seven">
             <img src="imgs/birth_tp_1.jpg" alt="Avatar" class="image">
             <div class="overlay four">
               <div class="text four">Hello World</div>
@@ -86,10 +104,14 @@
 
 
 
+    <!-- </div> -->
 
-    </div>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 
 </body>
