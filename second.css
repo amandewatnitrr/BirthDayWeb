@@ -74,6 +74,7 @@ li a:hover:not(.active) {
 /* arrom animation css  */
 
 .arrow{
+  cursor: pointer;
   position: absolute;
   top: -100%;
   left: 50%;

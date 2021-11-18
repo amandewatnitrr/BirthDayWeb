@@ -15,7 +15,7 @@
 <body>
 
   <ul>
-    <li><a href="cake.html">Find who wished you?</a></li>
+    <li><a href="#home">Find who wished you?</a></li>
     <li class="surprise"><a href="https://amandewatnitrr.github.io/hbd-prag/">Surprise</a></li>
   </ul>
 
@@ -39,17 +39,19 @@
     <br><br><br><br>
     <!-- now the time of cards -->
     <div class="txt1">
-      <div class="arrow">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+
+       <div class="arrow" onclick="document.getElementById('notes').scrollIntoView();">
+         <span></span>
+         <span></span>
+         <span></span>
+        </div>
+      
       <p>You're Amazing! Have a great year ahead.</p>
     </div><br>
     <div class="txt2">We have recieved so many greetings and wishes, but we could not keep track of who sent which
         message, so we guess you will have to do the hard work. Guess!</div>
     
-    <div class="white">
+    <div id="notes" class="white">
 
         <div data-aos="fade-up-right" class="container1">
             <img src="imgs/prag_message.png" alt="Avatar" class="image">
