@@ -26,17 +26,22 @@
 
             </div>
         </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
     </div>
     <br><br><br>
 
     
     <!-- arrow animation scroll  -->
-    <div class="arrow">
+    <!-- <div class="arrow">
       <span></span>
       <span></span>
       <span></span>
-    </div>
-    <br><br><br><br><br><br>
+    </div> -->
+    <br><br><br><br>
     <!-- now the time of cards -->
     <div class="txt1">You're Amazing! Have a great year ahead.</div><br>
     <div class="txt2">We have recieved so many greetings and wishes, but we could not keep track of who sent which
@@ -114,7 +119,17 @@
       AOS.init();
     </script>
 
-
+    <script type="text/javascript" src="card/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".container"),{
+		max: 25,
+		speed: 400,
+	});
+        VanillaTilt.init(document.querySelectorAll(".container1"),{
+		max: 25,
+		speed: 400,
+	});
+    </script>
 </body>
 
 </html>
