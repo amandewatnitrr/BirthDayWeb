@@ -26,11 +26,6 @@
 
             </div>
         </div>
-        <div class="arrow">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
     </div>
     <br><br><br>
 
@@ -43,7 +38,14 @@
     </div> -->
     <br><br><br><br>
     <!-- now the time of cards -->
-    <div class="txt1">You're Amazing! Have a great year ahead.</div><br>
+    <div class="txt1">
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p>You're Amazing! Have a great year ahead.</p>
+    </div><br>
     <div class="txt2">We have recieved so many greetings and wishes, but we could not keep track of who sent which
         message, so we guess you will have to do the hard work. Guess!</div>
     
@@ -121,13 +123,17 @@
 
     <script type="text/javascript" src="card/vanilla-tilt.js"></script>
     <script type="text/javascript">
-        VanillaTilt.init(document.querySelectorAll(".container"),{
+        VanillaTilt.init(document.querySelectorAll(".cake"),{
 		max: 25,
 		speed: 400,
+    // glare: true,
+    //   "max-glare": 1,
 	});
         VanillaTilt.init(document.querySelectorAll(".container1"),{
 		max: 25,
 		speed: 400,
+    glare: true,
+    "max-glare": 1,
 	});
     </script>
 </body>

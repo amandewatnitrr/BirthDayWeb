@@ -28,9 +28,7 @@ body::after{
 }
 
 /* navbar code  */
-.container1 img{
-  border-radius: 168px;
-}
+
 .container1{
   background-color: #4ed34e;
 }
@@ -69,6 +67,7 @@ li a:hover:not(.active) {
   color: black;
 }
 .txt1{
+  position: relative;
   color: black;
 }
 
@@ -76,7 +75,7 @@ li a:hover:not(.active) {
 
 .arrow{
   position: absolute;
-  bottom: 0%;
+  top: -100%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -373,4 +372,13 @@ li a:hover:not(.active) {
     margin-right: auto;
   }
 }
+
+.container{
+  margin-bottom: 70px;
+}
       
+
+.txt2{
+  font-weight: 700;
+  font-size: 1rem;
+}
